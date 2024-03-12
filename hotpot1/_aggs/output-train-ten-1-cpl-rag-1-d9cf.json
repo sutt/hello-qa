@@ -1,0 +1,255 @@
+{
+  "header": {
+    "sheet_name": "Hotpot-Train:1-10",
+    "sheet_fn": "input-train-ten-1.md",
+    "run_id": "d9cf",
+    "name_model": "cpl-rag-1",
+    "start_time": "2024-03-12T17:11:09.373259",
+    "lime_version": "0.1",
+    "infer_params": {
+      "gen_params": {}
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-1",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "John Townes Van Zandt",
+      "question_usr": "At My Window was released by which American singer-songwriter?",
+      "question_sys": null,
+      "completion": "Townes Van Zandt",
+      "error": null,
+      "eval_time": 2.1250977516174316,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-2",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Bill Murray",
+      "question_usr": "which  American actor was Candace Kita  guest starred with",
+      "question_sys": null,
+      "completion": "Nora Dunn",
+      "error": null,
+      "eval_time": 2.094041109085083,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-3",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Self",
+      "question_usr": "Which of these publications was most recently published, Who Put the Bomp or Self?",
+      "question_sys": null,
+      "completion": "Self",
+      "error": null,
+      "eval_time": 2.081465482711792,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-4",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "1950",
+      "question_usr": "The Victorians - Their Story In Pictures is a documentary series written by an author born in what year?",
+      "question_sys": null,
+      "completion": "1950",
+      "error": null,
+      "eval_time": 2.092130661010742,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-5",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Tae Kwon Do Times",
+      "question_usr": "Which magazine has published articles by Scott Shaw, Tae Kwon Do Times or Southwest Art?",
+      "question_sys": null,
+      "completion": "Tae Kwon Do Times",
+      "error": null,
+      "eval_time": 2.056494951248169,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-6",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "1874",
+      "question_usr": "In what year was the club founded that played Manchester City in the 1972 FA Charity Shield",
+      "question_sys": null,
+      "completion": "1874",
+      "error": null,
+      "eval_time": 2.0898215770721436,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-7",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "The Empire State Building",
+      "question_usr": "Which is taller, the Empire State Building or the Bank of America Tower?",
+      "question_sys": null,
+      "completion": "Empire State Building",
+      "error": null,
+      "eval_time": 2.125298261642456,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-8",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Rosario Dawson",
+      "question_usr": "Which American actress who made their film debut in the 1995 teen drama \"Kids\" was the co-founder of Voto Latino?",
+      "question_sys": null,
+      "completion": "Rosario Dawson",
+      "error": null,
+      "eval_time": 2.083596706390381,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-9",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Bill Paxton",
+      "question_usr": "Tombstone stared an actor born May 17, 1955 known as who?",
+      "question_sys": null,
+      "completion": "Michael Biehn",
+      "error": null,
+      "eval_time": 2.0872912406921387,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-10",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Operation Citadel",
+      "question_usr": "What is the code name for the German offensive that started this Second World War engagement on the Eastern Front (a few hundred kilometers from Moscow) between Soviet and German forces, which included 102nd Infantry Division?",
+      "question_sys": null,
+      "completion": "Operation Citadel",
+      "error": null,
+      "eval_time": 2.070896863937378,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    }
+  ]
+}

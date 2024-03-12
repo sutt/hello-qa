@@ -1,0 +1,255 @@
+{
+  "header": {
+    "sheet_name": "Hotpot-Train:1-10",
+    "sheet_fn": "input-train-ten-1.md",
+    "run_id": "580c",
+    "name_model": "gpt-3.5-turbo",
+    "start_time": "2024-03-11T19:37:52.990114",
+    "lime_version": "0.1",
+    "infer_params": {
+      "gen_params": {}
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-1",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "John Townes Van Zandt",
+      "question_usr": "At My Window was released by which American singer-songwriter?",
+      "question_sys": null,
+      "completion": "At My Window was released by American singer-songwriter Townes Van Zandt.",
+      "error": null,
+      "eval_time": 0.9001212120056152,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 12,
+        "sys": -1,
+        "cmp": 17
+      }
+    },
+    {
+      "name": "Q-2",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Bill Murray",
+      "question_usr": "which  American actor was Candace Kita  guest starred with",
+      "question_sys": null,
+      "completion": "Candace Kita guest starred with American actor David Hasselhoff in the TV series \"Baywatch.\"",
+      "error": null,
+      "eval_time": 0.8055222034454346,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 13,
+        "sys": -1,
+        "cmp": 22
+      }
+    },
+    {
+      "name": "Q-3",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Self",
+      "question_usr": "Which of these publications was most recently published, Who Put the Bomp or Self?",
+      "question_sys": null,
+      "completion": "Self was most recently published.",
+      "error": null,
+      "eval_time": 0.7926828861236572,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 17,
+        "sys": -1,
+        "cmp": 6
+      }
+    },
+    {
+      "name": "Q-4",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "1950",
+      "question_usr": "The Victorians - Their Story In Pictures is a documentary series written by an author born in what year?",
+      "question_sys": null,
+      "completion": "The author of The Victorians - Their Story In Pictures was born in 1960.",
+      "error": null,
+      "eval_time": 0.8893458843231201,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 21,
+        "sys": -1,
+        "cmp": 18
+      }
+    },
+    {
+      "name": "Q-5",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Tae Kwon Do Times",
+      "question_usr": "Which magazine has published articles by Scott Shaw, Tae Kwon Do Times or Southwest Art?",
+      "question_sys": null,
+      "completion": "Tae Kwon Do Times has published articles by Scott Shaw. Southwest Art does not typically feature articles on martial arts.",
+      "error": null,
+      "eval_time": 0.8474838733673096,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 19,
+        "sys": -1,
+        "cmp": 24
+      }
+    },
+    {
+      "name": "Q-6",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "1874",
+      "question_usr": "In what year was the club founded that played Manchester City in the 1972 FA Charity Shield",
+      "question_sys": null,
+      "completion": "The club that played Manchester City in the 1972 FA Charity Shield was Aston Villa, which was founded in 1874.",
+      "error": null,
+      "eval_time": 0.9557108879089355,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 19,
+        "sys": -1,
+        "cmp": 26
+      }
+    },
+    {
+      "name": "Q-7",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "The Empire State Building",
+      "question_usr": "Which is taller, the Empire State Building or the Bank of America Tower?",
+      "question_sys": null,
+      "completion": "The Bank of America Tower is taller than the Empire State Building. The Bank of America Tower stands at 1,200 feet (366 meters) tall, while the Empire State Building is 1,454 feet (443.2 meters) tall including",
+      "error": null,
+      "eval_time": 1.2336366176605225,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 15,
+        "sys": -1,
+        "cmp": 50
+      }
+    },
+    {
+      "name": "Q-8",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Rosario Dawson",
+      "question_usr": "Which American actress who made their film debut in the 1995 teen drama \"Kids\" was the co-founder of Voto Latino?",
+      "question_sys": null,
+      "completion": "Rosario Dawson",
+      "error": null,
+      "eval_time": 0.5434138774871826,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 27,
+        "sys": -1,
+        "cmp": 3
+      }
+    },
+    {
+      "name": "Q-9",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Bill Paxton",
+      "question_usr": "Tombstone stared an actor born May 17, 1955 known as who?",
+      "question_sys": null,
+      "completion": "Tombstone starred actor Kurt Russell, who was born on March 17, 1951.",
+      "error": null,
+      "eval_time": 0.809790849685669,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 18,
+        "sys": -1,
+        "cmp": 20
+      }
+    },
+    {
+      "name": "Q-10",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Operation Citadel",
+      "question_usr": "What is the code name for the German offensive that started this Second World War engagement on the Eastern Front (a few hundred kilometers from Moscow) between Soviet and German forces, which included 102nd Infantry Division?",
+      "question_sys": null,
+      "completion": "The code name for the German offensive that started this Second World War engagement on the Eastern Front was Operation Barbarossa.",
+      "error": null,
+      "eval_time": 1.1273653507232666,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 42,
+        "sys": -1,
+        "cmp": 23
+      }
+    }
+  ]
+}
