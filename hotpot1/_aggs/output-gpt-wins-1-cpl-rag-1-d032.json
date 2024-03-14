@@ -1,0 +1,183 @@
+{
+  "header": {
+    "sheet_name": "HotpotDev-GPTbeatsCPL",
+    "sheet_fn": "input-gpt-wins-1.md",
+    "run_id": "d032",
+    "name_model": "cpl-rag-1",
+    "start_time": "2024-03-13T19:56:52.109288",
+    "lime_version": "0.1",
+    "infer_params": {
+      "gen_params": {}
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-12",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "the oldest",
+      "question_usr": "Is the 72nd field brigade part of the oldest or newest established field army?",
+      "question_sys": null,
+      "completion": "oldest",
+      "error": null,
+      "eval_time": 2.062448501586914,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-14",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Del Lord",
+      "question_usr": "Which film director is younger, Del Lord or Wang Xiaoshuai?",
+      "question_sys": null,
+      "completion": "Wang Xiaoshuai",
+      "error": null,
+      "eval_time": 2.056306838989258,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-22",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Deepa Mehta",
+      "question_usr": "Who was born first, Tony Kaye or Deepa Mehta?",
+      "question_sys": null,
+      "completion": "Tony Kaye",
+      "error": null,
+      "eval_time": 2.071425676345825,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-36",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "1989",
+      "question_usr": "What album did the song of which Taylor Swift premiered the music video of during the pre-show of the 2015 MTV Video Music Awards come from?",
+      "question_sys": null,
+      "completion": "\"Wildest Dreams\"",
+      "error": null,
+      "eval_time": 2.0182154178619385,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-37",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Apera",
+      "question_usr": "Which is considered a genus level classification, Apera or Gunnera manicata?",
+      "question_sys": null,
+      "completion": "Gunnera manicata",
+      "error": null,
+      "eval_time": 2.0337116718292236,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-38",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "no",
+      "question_usr": "Do The Drums and Pussy Galore play music of similar genres?",
+      "question_sys": null,
+      "completion": "Yes",
+      "error": null,
+      "eval_time": 2.034393787384033,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-39",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Exon",
+      "question_usr": "What is the post-nominal abbreviation for the university where the Banded Mongoose Research Project is based?",
+      "question_sys": null,
+      "completion": "University of Exeter",
+      "error": null,
+      "eval_time": 2.0419044494628906,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    }
+  ]
+}

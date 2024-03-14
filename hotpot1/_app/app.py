@@ -85,7 +85,7 @@ def infer_switch(question: str, model: str = 'basic') -> str:
     else:
         return 'Error: Model not found'
 
-MODEL_TYPE = 'basic'
+MODEL_TYPE = 'rag'
 
 class MyPipeline(CPLBaseServer):
     def __init__(self, config):

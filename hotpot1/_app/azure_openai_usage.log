@@ -1,0 +1,50 @@
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+[33mPress CTRL+C to quit[0m
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [13/Mar/2024 19:14:28] "GET /check HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:30] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:32] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:34] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:37] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:39] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:41] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:43] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:45] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:47] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:49] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:51] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:53] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:55] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:14:57] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:00] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:02] "POST /infer HTTP/1.1" 200 -
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+127.0.0.1 - - [13/Mar/2024 19:15:05] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:07] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:09] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:11] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:14] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:16] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:18] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:20] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:22] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:24] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:26] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:28] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:30] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:33] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:35] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:37] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:39] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:41] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:43] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:45] "POST /infer HTTP/1.1" 200 -
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+127.0.0.1 - - [13/Mar/2024 19:15:49] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:51] "POST /infer HTTP/1.1" 200 -
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+127.0.0.1 - - [13/Mar/2024 19:15:54] "POST /infer HTTP/1.1" 200 -
+127.0.0.1 - - [13/Mar/2024 19:15:57] "POST /infer HTTP/1.1" 200 -

@@ -1,0 +1,183 @@
+{
+  "header": {
+    "sheet_name": "HotpotDev-GPTbeatsCPL",
+    "sheet_fn": "input-gpt-wins-1.md",
+    "run_id": "2711",
+    "name_model": "gpt-3.5-turbo",
+    "start_time": "2024-03-13T19:56:11.534415",
+    "lime_version": "0.1",
+    "infer_params": {
+      "gen_params": {}
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-12",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "the oldest",
+      "question_usr": "Is the 72nd field brigade part of the oldest or newest established field army?",
+      "question_sys": null,
+      "completion": "The 72nd Field Brigade is part of the oldest established field army.",
+      "error": null,
+      "eval_time": 0.8128368854522705,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 17,
+        "sys": -1,
+        "cmp": 15
+      }
+    },
+    {
+      "name": "Q-14",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Del Lord",
+      "question_usr": "Which film director is younger, Del Lord or Wang Xiaoshuai?",
+      "question_sys": null,
+      "completion": "Wang Xiaoshuai is younger than Del Lord. Wang Xiaoshuai was born on May 22, 1966, while Del Lord was born on October 7, 1894.",
+      "error": null,
+      "eval_time": 1.2328617572784424,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 14,
+        "sys": -1,
+        "cmp": 40
+      }
+    },
+    {
+      "name": "Q-22",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Deepa Mehta",
+      "question_usr": "Who was born first, Tony Kaye or Deepa Mehta?",
+      "question_sys": null,
+      "completion": "Tony Kaye was born first. He was born on July 8, 1952, while Deepa Mehta was born on September 1, 1950.",
+      "error": null,
+      "eval_time": 1.3262391090393066,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 14,
+        "sys": -1,
+        "cmp": 35
+      }
+    },
+    {
+      "name": "Q-36",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "1989",
+      "question_usr": "What album did the song of which Taylor Swift premiered the music video of during the pre-show of the 2015 MTV Video Music Awards come from?",
+      "question_sys": null,
+      "completion": "The song \"Wildest Dreams\" was premiered during the pre-show of the 2015 MTV Video Music Awards and it comes from Taylor Swift's album \"1989.\"",
+      "error": null,
+      "eval_time": 0.9214885234832764,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 30,
+        "sys": -1,
+        "cmp": 34
+      }
+    },
+    {
+      "name": "Q-37",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Apera",
+      "question_usr": "Which is considered a genus level classification, Apera or Gunnera manicata?",
+      "question_sys": null,
+      "completion": "Apera is considered a genus level classification. Gunnera manicata is a species within the genus Gunnera.",
+      "error": null,
+      "eval_time": 0.8143913745880127,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 18,
+        "sys": -1,
+        "cmp": 25
+      }
+    },
+    {
+      "name": "Q-38",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "no",
+      "question_usr": "Do The Drums and Pussy Galore play music of similar genres?",
+      "question_sys": null,
+      "completion": "No, The Drums and Pussy Galore do not play music of similar genres. The Drums are known for their indie pop and post-punk sound, while Pussy Galore is a noise rock and experimental band.",
+      "error": null,
+      "eval_time": 1.0247390270233154,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 14,
+        "sys": -1,
+        "cmp": 44
+      }
+    },
+    {
+      "name": "Q-39",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Exon",
+      "question_usr": "What is the post-nominal abbreviation for the university where the Banded Mongoose Research Project is based?",
+      "question_sys": null,
+      "completion": "The post-nominal abbreviation for the University of Exeter, where the Banded Mongoose Research Project is based, is Exon.",
+      "error": null,
+      "eval_time": 0.923126220703125,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 22,
+        "sys": -1,
+        "cmp": 28
+      }
+    }
+  ]
+}

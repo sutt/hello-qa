@@ -1,0 +1,327 @@
+{
+  "header": {
+    "sheet_name": "HotpotDev-CPLbeatsGPT",
+    "sheet_fn": "input-cpl-wins-1.md",
+    "run_id": "4543",
+    "name_model": "gpt-3.5-turbo",
+    "start_time": "2024-03-13T19:44:56.590992",
+    "lime_version": "0.1",
+    "infer_params": {
+      "gen_params": {}
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-4",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "the River Tyne",
+      "question_usr": "What river is near the Crichton Collegiate Church?",
+      "question_sys": null,
+      "completion": "The River Tyne is near the Crichton Collegiate Church.",
+      "error": null,
+      "eval_time": 0.9008805751800537,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 12,
+        "sys": -1,
+        "cmp": 14
+      }
+    },
+    {
+      "name": "Q-10",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "The Afghan Whigs",
+      "question_usr": "Which 90s rock band has more recently reformed, Gene or The Afghan Whigs?",
+      "question_sys": null,
+      "completion": "The Afghan Whigs have more recently reformed. They reunited in 2011 after disbanding in 2001. Gene, on the other hand, has not reformed since their breakup in 2004.",
+      "error": null,
+      "eval_time": 1.1213805675506592,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 19,
+        "sys": -1,
+        "cmp": 44
+      }
+    },
+    {
+      "name": "Q-20",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Robert F. Chew",
+      "question_usr": "What American actor plays an East side drug lord who prefers peaceful solutions to business disputes when possible?",
+      "question_sys": null,
+      "completion": "Denzel Washington",
+      "error": null,
+      "eval_time": 0.30933594703674316,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 19,
+        "sys": -1,
+        "cmp": 4
+      }
+    },
+    {
+      "name": "Q-21",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Manchester",
+      "question_usr": "What city is 11 miles north of the birthplace of actor Toby Sawyer?",
+      "question_sys": null,
+      "completion": "The city that is 11 miles north of the birthplace of actor Toby Sawyer is Los Angeles, California.",
+      "error": null,
+      "eval_time": 0.8046965599060059,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 16,
+        "sys": -1,
+        "cmp": 22
+      }
+    },
+    {
+      "name": "Q-23",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "the good market",
+      "question_usr": "What is the English translation of the name of the store that Macy's replaced in Boise Town Square?",
+      "question_sys": null,
+      "completion": "The English translation of the name of the store that Macy's replaced in Boise Town Square is \"The Bon Marché.\"",
+      "error": null,
+      "eval_time": 0.8385899066925049,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 20,
+        "sys": -1,
+        "cmp": 24
+      }
+    },
+    {
+      "name": "Q-24",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Christine Comer",
+      "question_usr": "Who did Lizzette Reynolds fire to make her notable in November 2007?",
+      "question_sys": null,
+      "completion": "Lizzette Reynolds fired the principal of Central Falls High School in Rhode Island, making her notable in November 2007.",
+      "error": null,
+      "eval_time": 0.8109118938446045,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 17,
+        "sys": -1,
+        "cmp": 25
+      }
+    },
+    {
+      "name": "Q-31",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Maria Yermolova",
+      "question_usr": "The original work by Anton Chekhov involving a disillusioned schoolmaster, which inspired a later play by this British playwright, was written specifically for whom?",
+      "question_sys": null,
+      "completion": "The original work by Anton Chekhov involving a disillusioned schoolmaster is \"The Teacher of Literature.\" This work inspired the later play \"The Browning Version\" by British playwright Terence Rattigan. Chekhov wrote \"The Teacher of",
+      "error": null,
+      "eval_time": 1.227015733718872,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 31,
+        "sys": -1,
+        "cmp": 50
+      }
+    },
+    {
+      "name": "Q-34",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "yes",
+      "question_usr": "Are Walt Disney and Sacro GRA both documentry films?",
+      "question_sys": null,
+      "completion": "Yes, both Walt Disney and Sacro GRA are documentary films. Walt Disney is a documentary film about the life and career of Walt Disney, while Sacro GRA is a documentary film that explores the lives of people living along the Grande Raccordo An",
+      "error": null,
+      "eval_time": 1.0273411273956299,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 12,
+        "sys": -1,
+        "cmp": 50
+      }
+    },
+    {
+      "name": "Q-40",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "yes",
+      "question_usr": "Are both Benjamin Christensen and Len Wiseman directors?",
+      "question_sys": null,
+      "completion": "Yes, both Benjamin Christensen and Len Wiseman are directors. Benjamin Christensen was a Danish film director known for his work in silent films, particularly the horror film \"Häxan\" (1922). Len Wiseman is an American film",
+      "error": null,
+      "eval_time": 1.1221778392791748,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 11,
+        "sys": -1,
+        "cmp": 50
+      }
+    },
+    {
+      "name": "Q-41",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Bill Melendez",
+      "question_usr": "Steven Cuitlahuac Melendez and Disney are connected by what American animator?",
+      "question_sys": null,
+      "completion": "Steven Cuitlahuac Melendez and Disney are connected by American animator Walt Disney. Walt Disney was the co-founder of The Walt Disney Company, which is one of the largest and most well-known entertainment companies in the world. Disney is known for",
+      "error": null,
+      "eval_time": 1.4317526817321777,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 17,
+        "sys": -1,
+        "cmp": 50
+      }
+    },
+    {
+      "name": "Q-42",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Clarence River",
+      "question_usr": "Shark Creek is located on this river which is in the northern rivers district?",
+      "question_sys": null,
+      "completion": "The Richmond River",
+      "error": null,
+      "eval_time": 0.45766615867614746,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 16,
+        "sys": -1,
+        "cmp": 3
+      }
+    },
+    {
+      "name": "Q-43",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Pixar",
+      "question_usr": "Who was the producer of the 2016 animated film about an amnesiac fish?",
+      "question_sys": null,
+      "completion": "The producer of the 2016 animated film \"Finding Dory\" was Lindsey Collins.",
+      "error": null,
+      "eval_time": 0.5689668655395508,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 18,
+        "sys": -1,
+        "cmp": 18
+      }
+    },
+    {
+      "name": "Q-44",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Renault",
+      "question_usr": "Who purchased the team Michael Schumacher raced for in the 1995 Monaco Grand Prix in 2000?",
+      "question_sys": null,
+      "completion": "Ferrari purchased the team Michael Schumacher raced for in the 1995 Monaco Grand Prix in 2000.",
+      "error": null,
+      "eval_time": 0.9237101078033447,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": 23,
+        "sys": -1,
+        "cmp": 25
+      }
+    }
+  ]
+}

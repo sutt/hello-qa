@@ -1,0 +1,975 @@
+{
+  "header": {
+    "sheet_name": "Hotpot-Train:11-20",
+    "sheet_fn": "input-train-ten-2.md",
+    "run_id": "d906",
+    "name_model": "cpl-rag-1",
+    "start_time": "2024-03-13T19:14:28.595389",
+    "lime_version": "0.1",
+    "infer_params": {
+      "gen_params": {}
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-11",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "79 AD",
+      "question_usr": "What year did the mountain known in Italian as \"Monte Vesuvio\", erupt?",
+      "question_sys": null,
+      "completion": "79 AD",
+      "error": null,
+      "eval_time": 2.109431505203247,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-12",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "the oldest",
+      "question_usr": "Is the 72nd field brigade part of the oldest or newest established field army?",
+      "question_sys": null,
+      "completion": "oldest",
+      "error": null,
+      "eval_time": 2.113919258117676,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-13",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "not",
+      "question_usr": "Was Stanislaw Kiszka paid for his services by the Royal Treasury?",
+      "question_sys": null,
+      "completion": "Yes",
+      "error": null,
+      "eval_time": 2.08791446685791,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-14",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Del Lord",
+      "question_usr": "Which film director is younger, Del Lord or Wang Xiaoshuai?",
+      "question_sys": null,
+      "completion": "Wang Xiaoshuai",
+      "error": null,
+      "eval_time": 2.0934107303619385,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-15",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Jonathan William Patrick Aitken",
+      "question_usr": "Lord North Street has a resident in which former Conservative MP who received an 18-month prison sentence for perjury in 1999?",
+      "question_sys": null,
+      "completion": "Jonathan Aitken",
+      "error": null,
+      "eval_time": 2.1050796508789062,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-16",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Marche",
+      "question_usr": "What is the name of this region of Italy, referring to the medieval March of Ancona and nearby marches of Camerino and Fermo, where the comune Pollenza is located?",
+      "question_sys": null,
+      "completion": "Marche",
+      "error": null,
+      "eval_time": 2.0935728549957275,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-17",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "7,402 at the 2010 census",
+      "question_usr": "William Hughes Miller was born in a city with how many inhabitants ?",
+      "question_sys": null,
+      "completion": "unknown",
+      "error": null,
+      "eval_time": 2.093855142593384,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-18",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "design their own interdisciplinary program",
+      "question_usr": "What do students do at the school of New York University where Meleko Mokgosi is an artist and assistant professor?",
+      "question_sys": null,
+      "completion": "Attend classes, participate, engage.",
+      "error": null,
+      "eval_time": 2.1187572479248047,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-19",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "English",
+      "question_usr": "What is the nationality of the chef and restaurateur featured in Restaurant: Impossible?",
+      "question_sys": null,
+      "completion": "British",
+      "error": null,
+      "eval_time": 2.1170692443847656,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-20",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Robert F. Chew",
+      "question_usr": "What American actor plays an East side drug lord who prefers peaceful solutions to business disputes when possible?",
+      "question_sys": null,
+      "completion": "Robert F. Chew",
+      "error": null,
+      "eval_time": 2.0782511234283447,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-21",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Manchester",
+      "question_usr": "What city is 11 miles north of the birthplace of actor Toby Sawyer?",
+      "question_sys": null,
+      "completion": "Manchester",
+      "error": null,
+      "eval_time": 2.105175018310547,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-22",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Deepa Mehta",
+      "question_usr": "Who was born first, Tony Kaye or Deepa Mehta?",
+      "question_sys": null,
+      "completion": "Tony Kaye",
+      "error": null,
+      "eval_time": 2.0882771015167236,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-23",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "the good market",
+      "question_usr": "What is the English translation of the name of the store that Macy's replaced in Boise Town Square?",
+      "question_sys": null,
+      "completion": "The Good Market",
+      "error": null,
+      "eval_time": 2.0659337043762207,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-24",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Christine Comer",
+      "question_usr": "Who did Lizzette Reynolds fire to make her notable in November 2007?",
+      "question_sys": null,
+      "completion": "Christine Comer",
+      "error": null,
+      "eval_time": 2.0923519134521484,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-25",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "William Street Hutchings",
+      "question_usr": "What was the name of the man, who was billed by the coiner of the phrase \"There's a sucker born every minute\" as \"Boy Lightning Calculator\"?",
+      "question_sys": null,
+      "completion": "George Parker",
+      "error": null,
+      "eval_time": 2.0937676429748535,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-26",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Battle of the Ch'ongch'on River",
+      "question_usr": "Which battle was fought for a shorter period of time, the Battle of the Ch'ongch'on River, or the Meuse-Argonne Offensive?",
+      "question_sys": null,
+      "completion": "Battle of the Ch'ongch'on River",
+      "error": null,
+      "eval_time": 2.0958380699157715,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-27",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Ian Botham",
+      "question_usr": "What cricketeer active 1974–1993 had a strong performance in the tour by the Australian cricket team in England in 1981?",
+      "question_sys": null,
+      "completion": "Ian Botham",
+      "error": null,
+      "eval_time": 3.6038644313812256,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-28",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "defensive assistant at Florida Atlantic",
+      "question_usr": "What is the present post of the head coach of the 1982 NC State Wolfpack football team ?",
+      "question_sys": null,
+      "completion": "Monte Kiffin",
+      "error": null,
+      "eval_time": 2.0699713230133057,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-29",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Ewan McGregor",
+      "question_usr": "Which Scottish actor sang \"Come What May\"?",
+      "question_sys": null,
+      "completion": "Ewan McGregor",
+      "error": null,
+      "eval_time": 2.0881247520446777,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-30",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "space",
+      "question_usr": "Where have Ivan Bella and Frank De Winne both traveled?",
+      "question_sys": null,
+      "completion": "space",
+      "error": null,
+      "eval_time": 2.08017635345459,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-31",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Maria Yermolova",
+      "question_usr": "The original work by Anton Chekhov involving a disillusioned schoolmaster, which inspired a later play by this British playwright, was written specifically for whom?",
+      "question_sys": null,
+      "completion": "Maria Yermolova",
+      "error": null,
+      "eval_time": 2.1165618896484375,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-32",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "no",
+      "question_usr": "Are Roswell International Air Center and Pago Pago International Airport both located in the mainland US?",
+      "question_sys": null,
+      "completion": "No",
+      "error": null,
+      "eval_time": 2.1092581748962402,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-33",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "the voice of basketball",
+      "question_usr": "Untold: The Greatest Sports Stories Never Told was hosted by a sportscaster commonly referred to as what ?",
+      "question_sys": null,
+      "completion": "Marv Albert",
+      "error": null,
+      "eval_time": 2.0908596515655518,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-34",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "yes",
+      "question_usr": "Are Walt Disney and Sacro GRA both documentry films?",
+      "question_sys": null,
+      "completion": "Yes",
+      "error": null,
+      "eval_time": 2.101168155670166,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-35",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Hamas",
+      "question_usr": "What is the Palestinian Islamic organization that governs th small territory on the eastern coast of the Mediterranean Sea that was captured by Israel during the 1967 Six-Day War?",
+      "question_sys": null,
+      "completion": "Hamas",
+      "error": null,
+      "eval_time": 2.119445323944092,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-36",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "1989",
+      "question_usr": "What album did the song of which Taylor Swift premiered the music video of during the pre-show of the 2015 MTV Video Music Awards come from?",
+      "question_sys": null,
+      "completion": "\"Wildest Dreams\"",
+      "error": null,
+      "eval_time": 2.1131796836853027,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-37",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Apera",
+      "question_usr": "Which is considered a genus level classification, Apera or Gunnera manicata?",
+      "question_sys": null,
+      "completion": "Gunnera manicata",
+      "error": null,
+      "eval_time": 2.09161114692688,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-38",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "no",
+      "question_usr": "Do The Drums and Pussy Galore play music of similar genres?",
+      "question_sys": null,
+      "completion": "Yes",
+      "error": null,
+      "eval_time": 2.1080539226531982,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-39",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Exon",
+      "question_usr": "What is the post-nominal abbreviation for the university where the Banded Mongoose Research Project is based?",
+      "question_sys": null,
+      "completion": "University of Exeter",
+      "error": null,
+      "eval_time": 2.108297824859619,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-40",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "yes",
+      "question_usr": "Are both Benjamin Christensen and Len Wiseman directors?",
+      "question_sys": null,
+      "completion": "Yes",
+      "error": null,
+      "eval_time": 2.0696253776550293,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-41",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Bill Melendez",
+      "question_usr": "Steven Cuitlahuac Melendez and Disney are connected by what American animator?",
+      "question_sys": null,
+      "completion": "Bill Melendez",
+      "error": null,
+      "eval_time": 2.075199604034424,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-42",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Clarence River",
+      "question_usr": "Shark Creek is located on this river which is in the northern rivers district?",
+      "question_sys": null,
+      "completion": "Clarence River",
+      "error": null,
+      "eval_time": 2.0846686363220215,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-43",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Pixar",
+      "question_usr": "Who was the producer of the 2016 animated film about an amnesiac fish?",
+      "question_sys": null,
+      "completion": "Pixar Animation Studios",
+      "error": null,
+      "eval_time": 2.1106138229370117,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-44",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Renault",
+      "question_usr": "Who purchased the team Michael Schumacher raced for in the 1995 Monaco Grand Prix in 2000?",
+      "question_sys": null,
+      "completion": "Renault",
+      "error": null,
+      "eval_time": 2.1025187969207764,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-45",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Cadwalader Heights",
+      "question_usr": "Fredrick Law Olmsted was an American landscape architect, journalist, social critic and public administrator that designed what neighborhood in Trenton, New Jersey?",
+      "question_sys": null,
+      "completion": "Cadwalader Park",
+      "error": null,
+      "eval_time": 2.0975005626678467,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-46",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "\"Forza Italia\" party.",
+      "question_usr": "Gordon Warnecke worked alongside the former senator for which political party on Young Toscanini?",
+      "question_sys": null,
+      "completion": "Democrat",
+      "error": null,
+      "eval_time": 2.0956053733825684,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-47",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "the Wehrmacht",
+      "question_usr": "André Zucca was a French photographer who worked with a German propaganda magazine published by what Nazi organization?",
+      "question_sys": null,
+      "completion": "Third Reich",
+      "error": null,
+      "eval_time": 3.7894718647003174,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-48",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "cricketer",
+      "question_usr": "Both Bill Ponsford and Bill Woodfull played what?",
+      "question_sys": null,
+      "completion": "cricket",
+      "error": null,
+      "eval_time": 2.0914626121520996,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-49",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Danny Wallace",
+      "question_usr": "Suzana S. Drobnjaković Ponti acted in a film loosely based on a book by who?",
+      "question_sys": null,
+      "completion": "Chiara Gamberale",
+      "error": null,
+      "eval_time": 3.4274001121520996,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-50",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Portland",
+      "question_usr": "In what city was the Election Law Journal founded?",
+      "question_sys": null,
+      "completion": "Los Angeles",
+      "error": null,
+      "eval_time": 2.090947389602661,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "header": {
+    "sheet_name": "HotpotDev-CPLbeatsGPT",
+    "sheet_fn": "input-cpl-wins-1.md",
+    "run_id": "41cb",
+    "name_model": "cpl-rag-1",
+    "start_time": "2024-03-13T19:46:17.931046",
+    "lime_version": "0.1",
+    "infer_params": {
+      "gen_params": {}
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-4",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "the River Tyne",
+      "question_usr": "What river is near the Crichton Collegiate Church?",
+      "question_sys": null,
+      "completion": "River Tyne",
+      "error": null,
+      "eval_time": 2.116420030593872,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-10",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "The Afghan Whigs",
+      "question_usr": "Which 90s rock band has more recently reformed, Gene or The Afghan Whigs?",
+      "question_sys": null,
+      "completion": "The Afghan Whigs",
+      "error": null,
+      "eval_time": 2.1109139919281006,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-20",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Robert F. Chew",
+      "question_usr": "What American actor plays an East side drug lord who prefers peaceful solutions to business disputes when possible?",
+      "question_sys": null,
+      "completion": "Robert F. Chew",
+      "error": null,
+      "eval_time": 2.029360055923462,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-21",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Manchester",
+      "question_usr": "What city is 11 miles north of the birthplace of actor Toby Sawyer?",
+      "question_sys": null,
+      "completion": "Manchester",
+      "error": null,
+      "eval_time": 2.036207437515259,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-23",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "the good market",
+      "question_usr": "What is the English translation of the name of the store that Macy's replaced in Boise Town Square?",
+      "question_sys": null,
+      "completion": "The Good Market",
+      "error": null,
+      "eval_time": 2.047762393951416,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-24",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Christine Comer",
+      "question_usr": "Who did Lizzette Reynolds fire to make her notable in November 2007?",
+      "question_sys": null,
+      "completion": "Christine Comer",
+      "error": null,
+      "eval_time": 2.059297800064087,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-31",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Maria Yermolova",
+      "question_usr": "The original work by Anton Chekhov involving a disillusioned schoolmaster, which inspired a later play by this British playwright, was written specifically for whom?",
+      "question_sys": null,
+      "completion": "Maria Yermolova",
+      "error": null,
+      "eval_time": 2.043339729309082,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-34",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "yes",
+      "question_usr": "Are Walt Disney and Sacro GRA both documentry films?",
+      "question_sys": null,
+      "completion": "Yes",
+      "error": null,
+      "eval_time": 2.0310816764831543,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-40",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "yes",
+      "question_usr": "Are both Benjamin Christensen and Len Wiseman directors?",
+      "question_sys": null,
+      "completion": "Yes",
+      "error": null,
+      "eval_time": 2.037696599960327,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-41",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Bill Melendez",
+      "question_usr": "Steven Cuitlahuac Melendez and Disney are connected by what American animator?",
+      "question_sys": null,
+      "completion": "Bill Melendez",
+      "error": null,
+      "eval_time": 2.032616138458252,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-42",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Clarence River",
+      "question_usr": "Shark Creek is located on this river which is in the northern rivers district?",
+      "question_sys": null,
+      "completion": "Clarence River",
+      "error": null,
+      "eval_time": 2.042419672012329,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-43",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Pixar",
+      "question_usr": "Who was the producer of the 2016 animated film about an amnesiac fish?",
+      "question_sys": null,
+      "completion": "Pixar Animation Studios",
+      "error": null,
+      "eval_time": 2.0408525466918945,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    },
+    {
+      "name": "Q-44",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "Renault",
+      "question_usr": "Who purchased the team Michael Schumacher raced for in the 1995 Monaco Grand Prix in 2000?",
+      "question_sys": null,
+      "completion": "Renault",
+      "error": null,
+      "eval_time": 2.044595718383789,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens_usr": null,
+      "ntokens": {
+        "usr": -1,
+        "sys": -1,
+        "cmp": -1
+      }
+    }
+  ]
+}
