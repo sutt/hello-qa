@@ -1,0 +1,79 @@
+{
+  "header": {
+    "sheet_name": "Sheet and Question Params",
+    "sheet_fn": "question-level-1.md",
+    "run_id": "db9e",
+    "name_model": "mistral_hf_7b",
+    "start_time": "2024-03-20T19:21:11.832074",
+    "lime_version": "0.1",
+    "infer_params": {
+      "max_tokens": 40,
+      "temperature": 1.0,
+      "seed": null
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-1",
+      "meta_data": {
+        "temperature": "1.0",
+        "max_tokens": "40",
+        "seed": "1"
+      },
+      "gen_params": {
+        "temperature": 1.0,
+        "max_tokens": 40,
+        "seed": 1
+      },
+      "ground_truth": null,
+      "question_usr": "Q: Generate an esoteric french phrase. (Then explain why it would be considered esoteric) A:",
+      "question_sys": null,
+      "completion": " Phrase: \"Le poireau bavard révèle le secret du verjus enroulé dans l'obscurité du jardin.\"\n\nTranslation:",
+      "error": null,
+      "eval_time": 9.910786867141724,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": null,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 26,
+        "sys": -1,
+        "cmp": 41
+      }
+    },
+    {
+      "name": "Q-2",
+      "meta_data": {
+        "temperature": "1.0",
+        "max_tokens": "40",
+        "seed": "2"
+      },
+      "gen_params": {
+        "temperature": 1.0,
+        "max_tokens": 40,
+        "seed": 2
+      },
+      "ground_truth": null,
+      "question_usr": "Q: Generate an esoteric french phrase. (Then explain why it would be considered esoteric) A:",
+      "question_sys": null,
+      "completion": " Phrásé magique lune de miel enchantée dans le labyrinthe du temps :\n\nThis phrase means \"magical phrase, moon of honeyed enchantment",
+      "error": null,
+      "eval_time": 6.530210018157959,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": null,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 26,
+        "sys": -1,
+        "cmp": 42
+      }
+    }
+  ]
+}

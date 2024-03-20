@@ -1,0 +1,63 @@
+{
+  "header": {
+    "sheet_name": "Sheet and Question Params",
+    "sheet_fn": "no-level-1.md",
+    "run_id": "fce3",
+    "name_model": "gpt-3.5-turbo",
+    "start_time": "2024-03-20T19:39:03.129806",
+    "lime_version": "0.1",
+    "infer_params": {
+      "max_tokens": 100,
+      "temperature": 0.0,
+      "seed": null
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-1",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": null,
+      "question_usr": "Q: Generate an esoteric french phrase. (Then explain why it would be considered esoteric) A:",
+      "question_sys": null,
+      "completion": "\"Les étoiles dansent avec les murmures du vent\"\n\nThis phrase could be considered esoteric because it combines elements of nature (stars and wind) with a sense of mysticism and poetic imagery. It conveys a sense of interconnectedness between the celestial and earthly realms, which may not be easily understood or appreciated by everyone. Additionally, the use of poetic language and metaphor adds to the esoteric nature of the phrase.",
+      "error": null,
+      "eval_time": 1.6890709400177002,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": null,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 22,
+        "sys": -1,
+        "cmp": 87
+      }
+    },
+    {
+      "name": "Q-2",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": null,
+      "question_usr": "Q: Generate an esoteric french phrase. (Then explain why it would be considered esoteric) A:",
+      "question_sys": null,
+      "completion": "\"Les étoiles dansent avec les murmures du vent\"\n\nThis phrase could be considered esoteric because it combines elements of nature (stars and wind) with a sense of mysticism and poetic imagery. It may not have a clear or easily understandable meaning to those who are not familiar with esoteric or philosophical concepts. The phrase also has a dream-like quality to it, adding to its esoteric nature.",
+      "error": null,
+      "eval_time": 2.0944664478302,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": null,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 22,
+        "sys": -1,
+        "cmp": 83
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "header": {
+    "sheet_name": "Sheet and Question Params",
+    "sheet_fn": "sheet-level-1.md",
+    "run_id": "118d",
+    "name_model": "gpt-3.5-turbo",
+    "start_time": "2024-03-20T18:58:16.952458",
+    "lime_version": "0.1",
+    "infer_params": {
+      "max_tokens": 10,
+      "temperature": 1.0,
+      "seed": null
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-1",
+      "meta_data": {
+        "max_tokens": "10",
+        "temperature": "1.0"
+      },
+      "gen_params": {
+        "temperature": 1.0,
+        "max_tokens": 10
+      },
+      "ground_truth": null,
+      "question_usr": "Q: Generate an esoteric french phrase. (Then explain why it would be considered esoteric) A:",
+      "question_sys": null,
+      "completion": "\"Le silence des étoiles murmure à",
+      "error": null,
+      "eval_time": 0.9480845928192139,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": null,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 22,
+        "sys": -1,
+        "cmp": 10
+      }
+    },
+    {
+      "name": "Q-2",
+      "meta_data": {
+        "max_tokens": "10",
+        "temperature": "1.0"
+      },
+      "gen_params": {
+        "temperature": 1.0,
+        "max_tokens": 10
+      },
+      "ground_truth": null,
+      "question_usr": "Q: Generate an esoteric french phrase. (Then explain why it would be considered esoteric) A:",
+      "question_sys": null,
+      "completion": "\"Les étoiles chantent la symphon",
+      "error": null,
+      "eval_time": 0.7643074989318848,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": null,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 22,
+        "sys": -1,
+        "cmp": 10
+      }
+    }
+  ]
+}

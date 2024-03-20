@@ -1,0 +1,71 @@
+{
+  "header": {
+    "sheet_name": "Sheet and Question Params",
+    "sheet_fn": "sheet-level-1.md",
+    "run_id": "02b4",
+    "name_model": "gpt-3.5-turbo",
+    "start_time": "2024-03-20T19:36:34.677134",
+    "lime_version": "0.1",
+    "infer_params": {
+      "max_tokens": 10,
+      "temperature": 1.0,
+      "seed": 1
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-1",
+      "meta_data": {
+        "seed": "1"
+      },
+      "gen_params": {
+        "seed": 1
+      },
+      "ground_truth": null,
+      "question_usr": "Q: Generate an esoteric french phrase. (Then explain why it would be considered esoteric) A:",
+      "question_sys": null,
+      "completion": "\"La clairvoyance de l'esprit",
+      "error": null,
+      "eval_time": 0.8451015949249268,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": null,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 22,
+        "sys": -1,
+        "cmp": 10
+      }
+    },
+    {
+      "name": "Q-2",
+      "meta_data": {
+        "seed": "1"
+      },
+      "gen_params": {
+        "seed": 1
+      },
+      "ground_truth": null,
+      "question_usr": "Q: Generate an esoteric french phrase. (Then explain why it would be considered esoteric) A:",
+      "question_sys": null,
+      "completion": "\"La clairvoyance de l'esprit",
+      "error": null,
+      "eval_time": 0.5558032989501953,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": null,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 22,
+        "sys": -1,
+        "cmp": 10
+      }
+    }
+  ]
+}

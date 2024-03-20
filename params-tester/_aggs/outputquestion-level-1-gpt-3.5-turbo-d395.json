@@ -1,0 +1,79 @@
+{
+  "header": {
+    "sheet_name": "Sheet and Question Params",
+    "sheet_fn": "question-level-1.md",
+    "run_id": "d395",
+    "name_model": "gpt-3.5-turbo",
+    "start_time": "2024-03-20T19:08:06.517823",
+    "lime_version": "0.1",
+    "infer_params": {
+      "max_tokens": 40,
+      "temperature": 1.0,
+      "seed": null
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-1",
+      "meta_data": {
+        "temperature": "1.0",
+        "max_tokens": "40",
+        "seed": "1"
+      },
+      "gen_params": {
+        "temperature": 1.0,
+        "max_tokens": 40,
+        "seed": 1
+      },
+      "ground_truth": null,
+      "question_usr": "Q: Generate an esoteric french phrase. (Then explain why it would be considered esoteric) A:",
+      "question_sys": null,
+      "completion": "\"La clairvoyance de l'esprit transcende la réalité tangible.\"\n\nThis phrase translates to \"The clairvoyance of the mind transcends tangible reality.\" It can be considered es",
+      "error": null,
+      "eval_time": 1.5896365642547607,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": null,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 22,
+        "sys": -1,
+        "cmp": 40
+      }
+    },
+    {
+      "name": "Q-2",
+      "meta_data": {
+        "temperature": "1.0",
+        "max_tokens": "40",
+        "seed": "2"
+      },
+      "gen_params": {
+        "temperature": 1.0,
+        "max_tokens": 40,
+        "seed": 2
+      },
+      "ground_truth": null,
+      "question_usr": "Q: Generate an esoteric french phrase. (Then explain why it would be considered esoteric) A:",
+      "question_sys": null,
+      "completion": "\"Le temps est un étranger qui voyage seul.\"\n\nThis phrase is considered esoteric because it's a metaphorical statement about time being a solitary traveler, which may not be easily understood or appreciated",
+      "error": null,
+      "eval_time": 1.4629440307617188,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": null,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 22,
+        "sys": -1,
+        "cmp": 40
+      }
+    }
+  ]
+}

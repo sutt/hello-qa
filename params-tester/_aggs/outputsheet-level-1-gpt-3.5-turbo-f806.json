@@ -1,0 +1,75 @@
+{
+  "header": {
+    "sheet_name": "Sheet and Question Params",
+    "sheet_fn": "sheet-level-1.md",
+    "run_id": "f806",
+    "name_model": "gpt-3.5-turbo",
+    "start_time": "2024-03-20T18:58:38.277388",
+    "lime_version": "0.1",
+    "infer_params": {
+      "max_tokens": 40,
+      "temperature": 1.0,
+      "seed": null
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-1",
+      "meta_data": {
+        "max_tokens": "40",
+        "temperature": "1.0"
+      },
+      "gen_params": {
+        "temperature": 1.0,
+        "max_tokens": 40
+      },
+      "ground_truth": null,
+      "question_usr": "Q: Generate an esoteric french phrase. (Then explain why it would be considered esoteric) A:",
+      "question_sys": null,
+      "completion": "\"Les ombres dansent avec la lune et murmurent des secrets anciens.\"\n\nThis phrase is considered esoteric because it uses poetic language and metaphorical imagery, reflecting a deep and",
+      "error": null,
+      "eval_time": 1.217820644378662,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": null,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 22,
+        "sys": -1,
+        "cmp": 40
+      }
+    },
+    {
+      "name": "Q-2",
+      "meta_data": {
+        "max_tokens": "40",
+        "temperature": "1.0"
+      },
+      "gen_params": {
+        "temperature": 1.0,
+        "max_tokens": 40
+      },
+      "ground_truth": null,
+      "question_usr": "Q: Generate an esoteric french phrase. (Then explain why it would be considered esoteric) A:",
+      "question_sys": null,
+      "completion": "\"Les cicatrices de l'âme sont plus profondes que celles du corps.\"\n\nThis phrase translates to \"The scars of the soul are deeper than those of the body.\" This",
+      "error": null,
+      "eval_time": 1.2439160346984863,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": null,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 22,
+        "sys": -1,
+        "cmp": 40
+      }
+    }
+  ]
+}
