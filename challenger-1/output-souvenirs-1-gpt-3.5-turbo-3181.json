@@ -1,0 +1,109 @@
+{
+  "header": {
+    "sheet_name": "Souvenirs-1",
+    "sheet_fn": "./input-souvenirs-1.md",
+    "run_id": "3181",
+    "name_model": "gpt-3.5-turbo",
+    "start_time": "2024-03-26T12:09:13.915001",
+    "lime_version": "0.1",
+    "infer_params": {
+      "max_tokens": 100,
+      "temperature": 0.0,
+      "seed": null
+    }
+  },
+  "questions": [
+    {
+      "name": "Object-Logic-1-(free-form)",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "The bed\n\n",
+      "question_usr": "I'm in my house. On top of my chair in the living room is a coffee cup. Inside the coffe cup is a thimble. Inside the tumble is a single diamond. I move the chair to my bedroom. Then I put the cofee cup on the bed. Then I turn the cup upside down. Then I return it to right side up, and place the coffee cup on the kitchen counter. Where is the diamond?\n",
+      "question_sys": null,
+      "completion": "The diamond is still inside the thimble inside the coffee cup on the kitchen counter.",
+      "error": null,
+      "eval_time": 1.3037300109863281,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 90,
+        "sys": 0,
+        "cmp": 18
+      }
+    },
+    {
+      "name": "Object-Logic-1-(mc)",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "B) The bed",
+      "question_usr": "I'm in my house. On top of my chair in the living room is a coffee cup. Inside the coffe cup is a thimble. Inside the tumble is a single diamond. I move the chair to my bedroom. Then I put the cofee cup on the bed. Then I turn the cup upside down. Then I return it to right side up, and place the coffee cup on the kitchen counter. Where is the diamond?\n\nA) The chair\nB) The bed\nC) The cup\nD) The thimble\n",
+      "question_sys": null,
+      "completion": "C) The diamond is still inside the cup.",
+      "error": null,
+      "eval_time": 0.5642237663269043,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 112,
+        "sys": 0,
+        "cmp": 10
+      }
+    },
+    {
+      "name": "Word-Problem-1-(free-form)",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "1",
+      "question_usr": "Sally (a girl) has 3 brothers. Each brother has 2 sisters. How many sisters does Sally have? ",
+      "question_sys": null,
+      "completion": "Sally has 2 sisters.",
+      "error": null,
+      "eval_time": 0.5927071571350098,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 26,
+        "sys": 0,
+        "cmp": 7
+      }
+    },
+    {
+      "name": "Word-Problem-1-(mc)",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "B) 1",
+      "question_usr": "Sally (a girl) has 3 brothers. Each brother has 2 sisters. How many sisters does Sally have? \nA) 0\nB) 1\nC) 2\nD) 3\n",
+      "question_sys": null,
+      "completion": "C) 2\n\nSally is one of the sisters of her brothers, so she has 2 sisters.",
+      "error": null,
+      "eval_time": 0.7091116905212402,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 46,
+        "sys": 0,
+        "cmp": 23
+      }
+    }
+  ]
+}

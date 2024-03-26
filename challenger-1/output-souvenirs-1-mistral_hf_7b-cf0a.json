@@ -1,0 +1,109 @@
+{
+  "header": {
+    "sheet_name": "Souvenirs-1",
+    "sheet_fn": "./input-souvenirs-1.md",
+    "run_id": "cf0a",
+    "name_model": "mistral_hf_7b",
+    "start_time": "2024-03-26T12:20:47.343229",
+    "lime_version": "0.1",
+    "infer_params": {
+      "max_tokens": 100,
+      "temperature": 0.0,
+      "seed": null
+    }
+  },
+  "questions": [
+    {
+      "name": "Object-Logic-1-(free-form)",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "The bed\n\n",
+      "question_usr": "I'm in my house. On top of my chair in the living room is a coffee cup. Inside the coffe cup is a thimble. Inside the tumble is a single diamond. I move the chair to my bedroom. Then I put the cofee cup on the bed. Then I turn the cup upside down. Then I return it to right side up, and place the coffee cup on the kitchen counter. Where is the diamond?\n",
+      "question_sys": null,
+      "completion": " The diamond was inside the coffee cup when it was on the bed and was turned upside down. So it would have fallen out during that time. However, the exact location of the fallen diamond is not specified in the given information. It could be anywhere near where the chair was previously located in the living room or where the bed is in the bedroom. It's impossible to determine the exact location without further information.",
+      "error": null,
+      "eval_time": 27.15303373336792,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 95,
+        "sys": 1,
+        "cmp": 86
+      }
+    },
+    {
+      "name": "Object-Logic-1-(mc)",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "B) The bed",
+      "question_usr": "I'm in my house. On top of my chair in the living room is a coffee cup. Inside the coffe cup is a thimble. Inside the tumble is a single diamond. I move the chair to my bedroom. Then I put the cofee cup on the bed. Then I turn the cup upside down. Then I return it to right side up, and place the coffee cup on the kitchen counter. Where is the diamond?\n\nA) The chair\nB) The bed\nC) The cup\nD) The thimble\n",
+      "question_sys": null,
+      "completion": " It's impossible to determine the exact position of the diamond based on the provided details. However, since the diamond was inside the coffee cup when it was turned upside down on the bed, it could have fallen out during that time. Therefore, it could be on the bed or the floor near the bed. So, the answer is not definitively A, B, C, or D. If you want to find the diamond, you would need to search the area around the bed for cl",
+      "error": null,
+      "eval_time": 39.14646053314209,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 118,
+        "sys": 1,
+        "cmp": 102
+      }
+    },
+    {
+      "name": "Word-Problem-1-(free-form)",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "1",
+      "question_usr": "Sally (a girl) has 3 brothers. Each brother has 2 sisters. How many sisters does Sally have? ",
+      "question_sys": null,
+      "completion": " Sally has 2 sisters.\n\nHere's the reasoning behind this:\n1. We know that Sally has 3 brothers.\n2. Each of her brothers has 2 sisters.\n3. Since all of Sally's siblings are either her brothers or her sisters, and we know how many brothers Sally has, we can determine how many sisters she has by finding out how many sisters each brother has and then doubling that number because each brother has two sisters, one being Sally",
+      "error": null,
+      "eval_time": 25.305415153503418,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 26,
+        "sys": 1,
+        "cmp": 102
+      }
+    },
+    {
+      "name": "Word-Problem-1-(mc)",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "B) 1",
+      "question_usr": "Sally (a girl) has 3 brothers. Each brother has 2 sisters. How many sisters does Sally have? \nA) 0\nB) 1\nC) 2\nD) 3\n",
+      "question_sys": null,
+      "completion": " Let's analyze this step by step:\n1. We know that Sally has 3 brothers, and each brother has 2 of them.\n2. Since one of those sisters is Sally herself, we need to account for the other sister for each brother.\n3. So, each brother has 2 sisters, which means there are two sisters in total for all three brothers.\n4. Therefore, Sally is one of those sisters and her brothers have the other sister, making it",
+      "error": null,
+      "eval_time": 55.73842787742615,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 47,
+        "sys": 1,
+        "cmp": 102
+      }
+    }
+  ]
+}
