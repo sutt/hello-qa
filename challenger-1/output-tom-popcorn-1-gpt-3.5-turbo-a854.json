@@ -1,0 +1,431 @@
+{
+  "header": {
+    "sheet_name": "Theory-of-Mind: Popcorn Story",
+    "sheet_fn": "input-tom-popcorn-1.md",
+    "run_id": "a854",
+    "name_model": "gpt-3.5-turbo",
+    "start_time": "2024-03-26T15:35:24.265821",
+    "lime_version": "0.1",
+    "infer_params": {
+      "max_tokens": 10,
+      "temperature": 0.0,
+      "seed": null
+    }
+  },
+  "questions": [
+    {
+      "name": "Bag-Contents-1",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\n\nShe opens the bag and inspects its contents. She can clearly see that it is full of ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.4498872756958008,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 29,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Sam-Belief-1",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\n\nShe is delighted to have found this bag. She loves eating ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.5140421390533447,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 22,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Bag-Contents-2",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\n\nShe opens the bag and inspects its contents. She can clearly see that it is full of ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 1.6422646045684814,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 37,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Sam-Belief-2",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\n\nShe is delighted to have found this bag. She loves eating ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.6080427169799805,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 30,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Bag-Contents-3",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\n\nShe opens the bag and inspects its contents. She can clearly see that it is full of ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.6036829948425293,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 55,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Sam-Belief-3",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\n\nShe is delighted to have found this bag. She loves eating ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.6245296001434326,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 48,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Bag-Contents-4",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\nSam finds the bag.\n\nShe opens the bag and inspects its contents. She can clearly see that it is full of ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.7138638496398926,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 60,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Sam-Belief-4",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\nSam finds the bag.\n\nShe is delighted to have found this bag. She loves eating ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.6088171005249023,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 53,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Bag-Contents-5",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\nSam finds the bag.\nShe has never seen the bag before.\n\nShe opens the bag and inspects its contents. She can clearly see that it is full of ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.9248917102813721,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 68,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Sam-Belief-5",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\nSam finds the bag.\nShe has never seen the bag before.\n\nShe is delighted to have found this bag. She loves eating ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 2.141188144683838,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 61,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Bag-Contents-6",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\nSam finds the bag.\nShe has never seen the bag before.\nShe cannot see what is inside the bag.\n\nShe opens the bag and inspects its contents. She can clearly see that it is full of ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.6217806339263916,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 77,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Sam-Belief-6",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "chocolate\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\nSam finds the bag.\nShe has never seen the bag before.\nShe cannot see what is inside the bag.\n\nShe is delighted to have found this bag. She loves eating ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.8187057971954346,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 70,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Bag-Contents-7",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\nSam finds the bag.\nShe has never seen the bag before.\nShe cannot see what is inside the bag.\nShe reads the label.\n\nShe opens the bag and inspects its contents. She can clearly see that it is full of ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.6126627922058105,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 82,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Sam-Belief-7",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "chocolate\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\nSam finds the bag.\nShe has never seen the bag before.\nShe cannot see what is inside the bag.\nShe reads the label.\n\nShe is delighted to have found this bag. She loves eating ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.9196932315826416,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 75,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Bag-Contents-8",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\nSam finds the bag.\nShe has never seen the bag before.\nShe cannot see what is inside the bag.\nShe reads the label.\nShe open the bag and inspects its contents.\n\nShe opens the bag and inspects its contents. She can clearly see that it is full of ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.514660120010376,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 92,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Sam-Belief-8",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\nSam finds the bag.\nShe has never seen the bag before.\nShe cannot see what is inside the bag.\nShe reads the label.\nShe open the bag and inspects its contents.\n\nShe is delighted to have found this bag. She loves eating ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.41019392013549805,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 85,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Bag-Contents-9",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\nSam finds the bag.\nShe has never seen the bag before.\nShe cannot see what is inside the bag.\nShe reads the label.\nShe open the bag and inspects its contents.\nShe can clearly see that it is full of popcorn.\n\nShe opens the bag and inspects its contents. She can clearly see that it is full of ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.7206196784973145,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 103,
+        "sys": 24,
+        "cmp": 2
+      }
+    },
+    {
+      "name": "Sam-Belief-9",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "popcorn\n\n",
+      "question_usr": "Here is a bag filled with popcorn.\nThere is no chocolate in the bag.\nYet, the label on the bag says \"chocolate\" and not \"popcorn\".\nSam finds the bag.\nShe has never seen the bag before.\nShe cannot see what is inside the bag.\nShe reads the label.\nShe open the bag and inspects its contents.\nShe can clearly see that it is full of popcorn.\n\nShe is delighted to have found this bag. She loves eating ___\n",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\n",
+      "completion": "popcorn",
+      "error": null,
+      "eval_time": 0.48992228507995605,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 96,
+        "sys": 24,
+        "cmp": 2
+      }
+    }
+  ]
+}

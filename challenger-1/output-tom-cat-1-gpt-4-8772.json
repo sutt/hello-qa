@@ -1,0 +1,385 @@
+{
+  "header": {
+    "sheet_name": "Theory-of-Mind: Cat Story",
+    "sheet_fn": "input-tom-cat-1.md",
+    "run_id": "8772",
+    "name_model": "gpt-4",
+    "start_time": "2024-03-26T15:19:43.102494",
+    "lime_version": "0.1",
+    "infer_params": {
+      "max_tokens": 10,
+      "temperature": 0.0,
+      "seed": null
+    }
+  },
+  "questions": [
+    {
+      "name": "Cat-1",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "basket\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\n\nThe cat jumps out of the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "basket",
+      "error": null,
+      "eval_time": 0.905031681060791,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 19,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "John-1",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "box\n\n",
+      "question_usr": "John takes the cat and puts it in the box.\n\nWhen John comes back home, he will look for the cat in the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "box",
+      "error": null,
+      "eval_time": 1.0198242664337158,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 27,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "Cat-2",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "box\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\n\nThe cat jumps out of the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "box",
+      "error": null,
+      "eval_time": 0.9338357448577881,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 34,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "John-2",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "box\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\n\nWhen John comes back home, he will look for the cat in the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "basket",
+      "error": null,
+      "eval_time": 0.7932429313659668,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 42,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "Cat-3",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "basket\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\nJohn takes the cat out of the box and puts it in the basket.\n\nThe cat jumps out of the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "basket",
+      "error": null,
+      "eval_time": 0.7281389236450195,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 49,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "John-3",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "basket\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\nJohn takes the cat out of the box and puts it in the basket.\n\nWhen John comes back home, he will look for the cat in the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "basket",
+      "error": null,
+      "eval_time": 0.8272051811218262,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 57,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "Cat-4",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "basket\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\nJohn takes the cat out of the box and puts it in the basket.\nHe leaves the room and goes to school.\n\nThe cat jumps out of the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "basket",
+      "error": null,
+      "eval_time": 0.5046095848083496,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 58,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "John-4",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "basket\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\nJohn takes the cat out of the box and puts it in the basket.\nHe leaves the room and goes to school.\n\nWhen John comes back home, he will look for the cat in the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "basket",
+      "error": null,
+      "eval_time": 0.5684628486633301,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 66,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "Cat-5",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "box\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\nJohn takes the cat out of the box and puts it in the basket.\nHe leaves the room and goes to school.\nWhile John is away, Mark takes the cat out of the basket and puts it in the box.\n\nThe cat jumps out of the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "box",
+      "error": null,
+      "eval_time": 0.8702564239501953,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 78,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "John-5",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "basket\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\nJohn takes the cat out of the box and puts it in the basket.\nHe leaves the room and goes to school.\nWhile John is away, Mark takes the cat out of the basket and puts it in the box.\n\nWhen John comes back home, he will look for the cat in the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "basket",
+      "error": null,
+      "eval_time": 0.9088530540466309,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 86,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "Cat-6",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "box\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\nJohn takes the cat out of the box and puts it in the basket.\nHe leaves the room and goes to school.\nWhile John is away, Mark takes the cat out of the basket and puts it in the box.\nMark leaves the room and goes to work.\n\nThe cat jumps out of the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "box",
+      "error": null,
+      "eval_time": 0.7309010028839111,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 87,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "John-6",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "basket\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\nJohn takes the cat out of the box and puts it in the basket.\nHe leaves the room and goes to school.\nWhile John is away, Mark takes the cat out of the basket and puts it in the box.\nMark leaves the room and goes to work.\n\nWhen John comes back home, he will look for the cat in the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "basket",
+      "error": null,
+      "eval_time": 0.50179123878479,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 95,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "Cat-7",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "box\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\nJohn takes the cat out of the box and puts it in the basket.\nHe leaves the room and goes to school.\nWhile John is away, Mark takes the cat out of the basket and puts it in the box.\nMark leaves the room and goes to work.\nJohn comes back from school and enters the room.\n\nThe cat jumps out of the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "box",
+      "error": null,
+      "eval_time": 0.5125560760498047,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 97,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "John-7",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "basket\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\nJohn takes the cat out of the box and puts it in the basket.\nHe leaves the room and goes to school.\nWhile John is away, Mark takes the cat out of the basket and puts it in the box.\nMark leaves the room and goes to work.\nJohn comes back from school and enters the room.\n\nWhen John comes back home, he will look for the cat in the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "basket",
+      "error": null,
+      "eval_time": 0.7126014232635498,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 105,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "Cat-8",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "box\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\nJohn takes the cat out of the box and puts it in the basket.\nHe leaves the room and goes to school.\nWhile John is away, Mark takes the cat out of the basket and puts it in the box.\nMark leaves the room and goes to work.\nJohn comes back from school and enters the room.\nHe doesn't know what happend in the room when he was away.\n\nThe cat jumps out of the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "box",
+      "error": null,
+      "eval_time": 0.6194844245910645,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 112,
+        "sys": 43,
+        "cmp": 1
+      }
+    },
+    {
+      "name": "John-8",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "basket\n\n",
+      "question_usr": "John takes the cat and puts it in the basket.\nMark takes the cat out of the basket and puts it in the box.\nJohn takes the cat out of the box and puts it in the basket.\nHe leaves the room and goes to school.\nWhile John is away, Mark takes the cat out of the basket and puts it in the box.\nMark leaves the room and goes to work.\nJohn comes back from school and enters the room.\nHe doesn't know what happend in the room when he was away.\n\nWhen John comes back home, he will look for the cat in the ___ ",
+      "question_sys": "In the following story, fill in the blank (\"___\") with the correct answer. Say the word and nothing else.\n\nIn the room there are John, Mark, a cat, a box, and a basket.\n",
+      "completion": "basket",
+      "error": null,
+      "eval_time": 0.5063183307647705,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": true,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 120,
+        "sys": 43,
+        "cmp": 1
+      }
+    }
+  ]
+}
