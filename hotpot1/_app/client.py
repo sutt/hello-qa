@@ -1,18 +1,19 @@
 import requests
-from lime.modules.inference.cpl_client import (
-    infer_cpl,
-    check_cpl,
+from lime.common.inference.cpl_client import (
+    CPLModelObj,
 )
 
 base_url = 'http://localhost:5000/'
 end_point = 'infer'
+
+obj = CPLModelObj('my_cpl_basic')
 
 def send_infer(
         question: str,
     ) -> str:
     data = {
         'question': question,
-        'sig_type': 'BasicQA',
+        'style': 'basic',
     }
     response = requests.post(base_url + end_point, json=data)
     if response.status_code == 200:
@@ -29,4 +30,4 @@ if __name__ == "__main__":
     # answer = send_infer(question)
     # print(answer)
 
-    print(f'check_cpl: {check_cpl()}')
+    print(f'check_cpl: {obj.check_valid()}')

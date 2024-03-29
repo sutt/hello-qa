@@ -1,0 +1,38 @@
+# LIME config file, generated with lime init command
+# template lime v0.1 config:
+
+# Do NOT store secrets in here. 
+# Instead use usr config dir: ~/.lime/secrets.env
+# these will be loaded to common.models.state.Secrets
+
+LocalModels:
+  my_cpl_basic:
+    type: cpl
+    profile:
+      style: basic
+  cpl_rag:
+    type: cpl
+    profile:
+      style: rag
+
+LocalParams:
+  temperature: 0.0
+  max_tokens: 100
+  seed: null
+
+CplServer:
+  domain: localhost
+  port: 5000
+  debug: True
+
+CplClientParams:
+  # valid_request_args: null
+  valid_request_args:
+  - max_tokens
+  - style
+  style: rag
+
+CplServerParams:
+  # k_retrieved: 3
+  flag: true
+
