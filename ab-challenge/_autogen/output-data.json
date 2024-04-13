@@ -1,0 +1,42 @@
+[
+  {
+    "problem": "#A #B #A #A #B B# B# B# B# A# B# A# ",
+    "solution": "#A #B #A #A #B B# B# B# B# A# B# A# "
+  },
+  {
+    "problem": "#B #B #B #A #B A# B# A# A# #A A# B# ",
+    "solution": "#B #B #B #A #B A# B# A# A# B# "
+  },
+  {
+    "problem": "#B #A A# #B #A #A B# A# A# A# A# A# ",
+    "solution": "#B #A #B #A B# A# A# A# A# A# "
+  },
+  {
+    "problem": "#B A# #A B# #B A# #B B# B# A# B# A# ",
+    "solution": "#B #B A# B# B# A# B# A# "
+  },
+  {
+    "problem": "B# B# #B #B #A #B B# #B #A #A B# #A ",
+    "solution": "#A #B #A #A #A B# "
+  },
+  {
+    "problem": "A# #B A# #A #A B# #B #B A# #A #B A# ",
+    "solution": "#B #B #B A# "
+  },
+  {
+    "problem": "B# #A #A #A #A #B #B #A B# #B B# A# ",
+    "solution": "#A #A #A #A #B #A B# A# "
+  },
+  {
+    "problem": "A# B# #A B# #B #A B# B# B# A# A# #B ",
+    "solution": "#A B# B# B# A# A# "
+  },
+  {
+    "problem": "#A B# #B A# A# #B #A #B B# A# A# #B ",
+    "solution": "#A #B #B A# A# A# "
+  },
+  {
+    "problem": "A# B# #A B# A# #B #B B# #A #A A# A# ",
+    "solution": "#A B# A# A# "
+  }
+]

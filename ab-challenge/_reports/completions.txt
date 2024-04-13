@@ -1,0 +1,30 @@
+### Questions/IDs: full Completions 
+
+| name   | run_id   | completion                    |
+|:-------|:---------|:------------------------------|
+| Q-1    | 0a2d     | 1. #A #B #A #A #B B# B# B# B# |
+|        |          | ...                           |
+| Q-1    | 23a5     | #A #B #A #A #B B# B# B# B# A# |
+|        |          | ...                           |
+| Q-1    | 4c7b     | <solution>X# #Y Y#            |
+|        |          | X#</solutio...                |
+| Q-1    | 71bc     | <solution>X# #Y Y#            |
+|        |          | X#</solutio...                |
+| Q-1    | 82a3     | #A #B #A #A #B B# B# B# B# A# |
+|        |          | ...                           |
+| Q-1    | a3f1     | Une phrase aléatoire en       |
+|        |          | frança...                     |
+| Q-2    | 0a2d     | 1. #B #B #B #A #B A# B# A# A# |
+|        |          | ...                           |
+| Q-2    | 23a5     | 1. #B #B #B #A #B A# B# A# A# |
+|        |          | ...                           |
+| Q-2    | 4c7b     | Bonjour!   <solution>A# #B B# |
+|        |          | ...                           |
+| Q-2    | 71bc     | <solution>X# #Y Y#            |
+|        |          | X#</solutio...                |
+| Q-2    | 82a3     | 1. #B #B #B #A #B A# B# A# A# |
+|        |          | ...                           |
+| Q-2    | a3f1     | Une phrase aléatoire en       |
+|        |          | frança...                     |
+
+

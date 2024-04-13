@@ -20,7 +20,7 @@ LocalParams:
   max_tokens: 100
   seed: null
 
-CplServer:
+CplServerConfig:
   domain: localhost
   port: 5000
   debug: True

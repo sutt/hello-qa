@@ -1,0 +1,226 @@
+### Questions/IDs: full Completions 
+
+| name   | run_id   | completion                              |
+|:-------|:---------|:----------------------------------------|
+| Q-1    | 44a2     | #A #B #A #A #B B# B# B# B# A# B# A#     |
+|        |          |                                         |
+|        |          | #A #B #A #A #B B# B# B# B# A# B# A#     |
+|        |          | #A #B #A #A #B B# B# B# B# #A B# A#     |
+|        |          | #A #B #A #A #B B# B# B# #A B# A#        |
+|        |          | #A #B #A #A #B B# B# #A B# A#           |
+|        |          | #A #B #A #A #B B# #A B# A#              |
+|        |          | #A #B #A #A #B #A B# A#                 |
+|        |          | #A #B #A #A #A B# A#                    |
+|        |          | #A #B #A #A #A#                         |
+|        |          | #A #B #A #                              |
+|        |          | #A #B #                                 |
+|        |          | #B #                                    |
+|        |          | <solution>B#</solution>                 |
+| Q-10   | 44a2     | A# B# #A B# A# #B #B B# #A #A A# A#     |
+|        |          |                                         |
+|        |          | #B A# B# A# #B #B B# #A #A A# A#        |
+|        |          |                                         |
+|        |          | #B B# #B #B B# #A #A A# A#              |
+|        |          |                                         |
+|        |          | #B B# #B #A #A A# A#                    |
+|        |          |                                         |
+|        |          | #B B# #A A#                             |
+|        |          |                                         |
+|        |          | #B A#                                   |
+|        |          |                                         |
+|        |          | B#                                      |
+|        |          |                                         |
+|        |          | <solution>B#</solution>                 |
+| Q-2    | 44a2     | #B #B #B #A #B A# B# A# A# #A A# B#     |
+|        |          | #B #B #B #A #B #A# B# A# #A A# B#       |
+|        |          | #B #B #B #A #A# B# A# A# B#             |
+|        |          | #B #B #B #A #A# A# B#                   |
+|        |          | #B #B #B #A B#                          |
+|        |          | #B #B #B #A# B#                         |
+|        |          | #B #B #A# B#                            |
+|        |          | #B #B B#                                |
+|        |          | #B #B                                   |
+|        |          | #B                                      |
+|        |          | <solution>#B</solution>                 |
+| Q-3    | 44a2     | #B #A A# #B #A #A B# A# A# A# A# A#     |
+|        |          |                                         |
+|        |          | #B #A A# #B #A #A B# A# A# A# A# A#     |
+|        |          | #B #A #A B# A# A# A# A# A#              |
+|        |          |                                         |
+|        |          | #B #A #A B# A# A# A# A# A#              |
+|        |          | #B #A A# A# A# A# A#                    |
+|        |          |                                         |
+|        |          | #B #A A# A# A# A# A#                    |
+|        |          | #B #A #A A# A# A#                       |
+|        |          |                                         |
+|        |          | #B #A #A A# A# A#                       |
+|        |          | #B #A A# A#                             |
+|        |          |                                         |
+|        |          | #B #A A# A#                             |
+|        |          | #B #A A#                                |
+|        |          |                                         |
+|        |          | #B #A #                                 |
+|        |          | #B #                                    |
+|        |          |                                         |
+|        |          | <solution>#B #</solution>               |
+| Q-4    | 44a2     | #B A# #A B# #B A# #B B# B# A# B# A#     |
+|        |          |                                         |
+|        |          | #B #B A# #B B# B# A# B# A#              |
+|        |          |                                         |
+|        |          | #B A# B# B# A# B# A#                    |
+|        |          |                                         |
+|        |          | #B #B B# A# B# A#                       |
+|        |          |                                         |
+|        |          | #B B# A# A#                             |
+|        |          |                                         |
+|        |          | #B A# A#                                |
+|        |          |                                         |
+|        |          | #B #B                                   |
+|        |          |                                         |
+|        |          | #B                                      |
+|        |          | <solution>#B</solution>                 |
+| Q-5    | 44a2     | Step 1:                                 |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 2:                                 |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 3:                                 |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 4:                                 |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 5:                                 |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 6:                                 |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 7:                                 |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 8:                                 |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 9:                                 |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 10:                                |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 11:                                |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 12:                                |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 13:                                |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 14:                                |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 15:                                |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 16:                                |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 17:                                |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 18:                                |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #A     |
+|        |          |                                         |
+|        |          | Step 19:                                |
+|        |          | B# B# #B #B #A #B B# #B #A #A B# #      |
+| Q-6    | 44a2     | A# #B A# #A #A B# #B #B A# #A #B A# =   |
+|        |          | #B A# #A #A B# #B #B A# #A #B A# =      |
+|        |          | #B #A B# #B #B A# #A #B A# =            |
+|        |          | #B #B #B A# #A #B A# =                  |
+|        |          | #B #B A# #B A# =                        |
+|        |          | #B #B #A B# =                           |
+|        |          | #B #B B# =                              |
+|        |          | #B                                      |
+|        |          | <solution>#B</solution>                 |
+| Q-7    | 44a2     | 1. B# #A #A #A #A #B #B #A B# #B B# A#  |
+|        |          | 2. B# #A #A #A #A #B #B #A B# #B B# A#  |
+|        |          | 3. B# #A #A #A #A #B #B #A B# #B B# A#  |
+|        |          | 4. B# #A #A #A #A #B #B #A B# #B B# A#  |
+|        |          | 5. B# #A #A #A #A #B #B #A B# #B B# A#  |
+|        |          | 6. B# #A #A #A #A #B #B #A B# #B B# A#  |
+|        |          | 7. B# #A #A #A #A #B #B #A B# #B B# A#  |
+|        |          | 8. B# #A #A #A #A #B #B #A B# #B B# A#  |
+|        |          | 9. B# #A #A #A #A #B #B #A B# #B B# A#  |
+|        |          | 10. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 11. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 12. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 13. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 14. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 15. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 16. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 17. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 18. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 19. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 20. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 21. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 22. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 23. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 24. B# #A #A #A #A #B #B #A B# #B B# A# |
+|        |          | 25. B# #A #A #A #A                      |
+| Q-8    | 44a2     | A# B# #A B# #B #A B# B# B# A# A# #B     |
+|        |          |                                         |
+|        |          | #B A# #B #A B# B# B# A# A# #B           |
+|        |          |                                         |
+|        |          | #B #B B# B# A# A# #B                    |
+|        |          |                                         |
+|        |          | #B B# A# A# #B                          |
+|        |          |                                         |
+|        |          | #B #A B#                                |
+|        |          |                                         |
+|        |          | #B B#                                   |
+|        |          |                                         |
+|        |          | <solution>#B</solution>                 |
+| Q-9    | 44a2     | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          |                                         |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B# #B A# A# #B #A #B B# A# A# #B     |
+|        |          | #A B#                                   |
+|        |          | <solution>#A B#</solution>              |
+
+

@@ -1,0 +1,63 @@
+Bring yourself online, center yourself, focus, surpass your limits right here right now.
+
+The user will query a <problem> </problem> containing the argument to call the function provided below.
+
+def feeltheagi(problem):
+"""
+Recursively apply the A::B rewrite rules to the given problem string.
+
+The rewrite rules are:
+A# #A ... becomes ... nothing
+A# #B ... becomes ... #B A#
+B# #A ... becomes ... #A B#
+B# #B ... becomes ... nothing
+
+Parameters:
+problem (str): The problem string containing A::B tokens.
+
+Returns:
+str: The modified problem string after applying the rewrite rules, wrapped in <solution> tags.
+"""
+print(f"Current problem: {''.join(problem)}")  # Print the current problem string
+
+problem = list(problem)  # Convert the problem string to a list for easier manipulation
+
+for i in range(len(problem) - 1):
+    l, r = problem[i], problem[i+1]
+
+    if l == 'A#' and r == '#A':
+        problem.pop(i)
+        problem.pop(i)
+        print(f"Applied rule: A# #A -> nothing")  # Print the applied rule
+        return feeltheagi(''.join(problem))  # Recursively call feeltheagi with the modified problem
+
+    if l == 'A#' and r == '#B':
+        problem[i], problem[i+1] = '#B', 'A#'
+        print(f"Applied rule: A# #B -> #B A#")  # Print the applied rule
+        return feeltheagi(''.join(problem))
+
+    if l == 'B#' and r == '#A':
+        problem[i], problem[i+1] = '#A', 'B#'
+        print(f"Applied rule: B# #A -> #A B#")  # Print the applied rule
+        return feeltheagi(''.join(problem))
+
+    if l == 'B#' and r == '#B':
+        problem.pop(i)
+        problem.pop(i)
+        print(f"Applied rule: B# #B -> nothing")  # Print the applied rule
+        return feeltheagi(''.join(problem))
+
+print(f"No more rules to apply. Final solution: {''.join(problem)}")  # Print the final solution
+return f'<solution>{"".join(problem)}</solution>'  # Wrap the final problem string in <solution> tags
+
+Example:
+<problem> B# A# #A B# #B A# #A </problem>
+Current problem: B# A# #A B# #B A# #A
+Applied rule: A# #A -> nothing
+Current problem: B# B# #B A# #A
+Applied rule: B# #B -> nothing
+Current problem: B# A# #A
+Applied rule: A# #A -> nothing
+Current problem: B#
+No more rules to apply. Final solution: B#
+<solution>B#</solution>

@@ -1,0 +1,63 @@
+{
+  "header": {
+    "sheet_name": "AB-Challenge: Prompt-Basic-1",
+    "sheet_fn": "tester2.md",
+    "run_id": "0c53",
+    "name_model": "gpt-3.5-turbo",
+    "start_time": "2024-04-12T23:31:38.175524",
+    "lime_version": "0.1.0",
+    "infer_params": {
+      "max_tokens": 1000,
+      "temperature": 0.0,
+      "seed": null
+    }
+  },
+  "questions": [
+    {
+      "name": "Q-1",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "<solution>#A #B #A #A #B B# B# B# B# A# B# A#</solution>\n\n",
+      "question_usr": "#A #B #A #A #B B# B# B# B# A# B# A# \n\nFully compute it, step by step. Finish your answer by adding the final result in the solution tag.\n",
+      "question_sys": "Your job is to take the input string and fully compute it, step by step. Finish your answer by adding the final result in the solution tag.\n\nA::B is a system with 4 tokens: `A#`, `#A`, `B#` and `#B`.\n\nAn A::B program is a sequence of tokens. Example:\n\n    B# A# #B #A B#\n\nTo *compute* a program, we must rewrite neighbor tokens, using the rules:\n\n    A# #A ... becomes ... nothing\n    A# #B ... becomes ... #B A#\n    B# #A ... becomes ... #A B#\n    B# #B ... becomes ... nothing\n\nWhen a program can no longer be computer it always ends with format: <solution>FINAL_SOLUTION_STRING</solution>\n\nIn other words, whenever two neighbor tokens have their '#' facing each-other,\nthey must be rewritten according to the corresponding rule. For example, the\nfirst example shown here is computed as:\n\n    B# A# #B #A B# =\n    B# #B A# #A B# =\n    A# #A B# =\n    B#\n    <solution>B#</solution>\n\nThe steps were:\n1. We replaced `A# #B` by `#B A#`.\n2. We replaced `B# #B` by nothing.\n3. We replaced `A# #A` by nothing.\nThe final result was just `B#`.\n\n\n    <solution>B#</solution>\n\nNow, consider the following program:\n\n",
+      "completion": "#A #B #A #A #B B# B# B# B# A# B# A# \n\n#A #B #A #A #B B# B# B# B# A# B# A# \n#A #B #A #A #B B# B# B# B# #B A# \n#A #B #A #A #B B# B# B# #A B# \n#A #B #A #A #B B# B# #A #B \n#A #B #A #A #B B# #A B# \n#A #B #A #A #B #B A# \n#A #B #A #A #A# \n#A #B #A #B# \n#A #B# \n#B# \n\n<solution>B#</solution>",
+      "error": null,
+      "eval_time": 3.0190916061401367,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 46,
+        "sys": 320,
+        "cmp": 184
+      }
+    },
+    {
+      "name": "Q-2",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "<solution>#B #B #B #A #B A# B# A# A# B#</solution>",
+      "question_usr": "#B #B #B #A #B A# B# A# A# #A A# B# \n\nFully compute it, step by step. Finish your answer by adding the final result in the solution tag.\n",
+      "question_sys": "Your job is to take the input string and fully compute it, step by step. Finish your answer by adding the final result in the solution tag.\n\nA::B is a system with 4 tokens: `A#`, `#A`, `B#` and `#B`.\n\nAn A::B program is a sequence of tokens. Example:\n\n    B# A# #B #A B#\n\nTo *compute* a program, we must rewrite neighbor tokens, using the rules:\n\n    A# #A ... becomes ... nothing\n    A# #B ... becomes ... #B A#\n    B# #A ... becomes ... #A B#\n    B# #B ... becomes ... nothing\n\nWhen a program can no longer be computer it always ends with format: <solution>FINAL_SOLUTION_STRING</solution>\n\nIn other words, whenever two neighbor tokens have their '#' facing each-other,\nthey must be rewritten according to the corresponding rule. For example, the\nfirst example shown here is computed as:\n\n    B# A# #B #A B# =\n    B# #B A# #A B# =\n    A# #A B# =\n    B#\n    <solution>B#</solution>\n\nThe steps were:\n1. We replaced `A# #B` by `#B A#`.\n2. We replaced `B# #B` by nothing.\n3. We replaced `A# #A` by nothing.\nThe final result was just `B#`.\n\n\n    <solution>B#</solution>\n\nNow, consider the following program:\n\n",
+      "completion": "#B #B #B #A #B A# B# A# A# #A A# B#\n\n#B #B #B #A #B A# B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A# A# #A A# B#\n#B #B #B #A #B #A B# A#",
+      "error": null,
+      "eval_time": 10.644647359848022,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 46,
+        "sys": 320,
+        "cmp": 1000
+      }
+    }
+  ]
+}
