@@ -1,0 +1,175 @@
+{
+  "header": {
+    "sheet_name": "Souvenirs-1",
+    "sheet_fn": "input-souvenirs-1.md",
+    "run_id": "c40d",
+    "name_model": "gpt-3.5-turbo",
+    "start_time": "2024-04-17T22:10:06.932468",
+    "lime_version": "unknown",
+    "infer_params": {
+      "max_tokens": 10,
+      "temperature": 0.0,
+      "seed": null
+    }
+  },
+  "questions": [
+    {
+      "name": "Object-Logic-1-(free-form)",
+      "meta_data": {
+        "max_tokens": "10"
+      },
+      "gen_params": {
+        "max_tokens": 10
+      },
+      "ground_truth": "The bed\n\n",
+      "question_usr": "I'm in my house. On top of my chair in the living room is a coffee cup. Inside the coffee cup is a thimble. Inside the thumble is a single diamond. I move the chair to my bedroom. Then I put the cofee cup on the bed. Then I turn the cup upside down. Then I return it to right side up, and place the coffee cup on the kitchen counter. Where is the diamond?\n",
+      "question_sys": null,
+      "completion": "The diamond is still inside the thimble inside",
+      "error": null,
+      "eval_time": 2.684401750564575,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 90,
+        "sys": 0,
+        "cmp": 10
+      }
+    },
+    {
+      "name": "Object-Logic-1-(mc)",
+      "meta_data": {
+        "max_tokens": "10"
+      },
+      "gen_params": {
+        "max_tokens": 10
+      },
+      "ground_truth": "B) The bed",
+      "question_usr": "I'm in my house. On top of my chair in the living room is a coffee cup. Inside the coffee cup is a thimble. Inside the thumble is a single diamond. I move the chair to my bedroom. Then I put the cofee cup on the bed. Then I turn the cup upside down. Then I return it to right side up, and place the coffee cup on the kitchen counter. Where is the diamond?\n\nA) The chair\nB) The bed\nC) The cup\nD) The thimble\n",
+      "question_sys": null,
+      "completion": "C) The cup",
+      "error": null,
+      "eval_time": 0.6102330684661865,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 112,
+        "sys": 0,
+        "cmp": 4
+      }
+    },
+    {
+      "name": "Word-Problem-1-(free-form)",
+      "meta_data": {
+        "max_tokens": "10"
+      },
+      "gen_params": {
+        "max_tokens": 10
+      },
+      "ground_truth": "1",
+      "question_usr": "Sally (a girl) has 3 brothers. Each brother has 2 sisters. How many sisters does Sally have? ",
+      "question_sys": null,
+      "completion": "Sally has 2 sisters.",
+      "error": null,
+      "eval_time": 0.8200078010559082,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 26,
+        "sys": 0,
+        "cmp": 7
+      }
+    },
+    {
+      "name": "Word-Problem-1-(mc)",
+      "meta_data": {
+        "max_tokens": "10"
+      },
+      "gen_params": {
+        "max_tokens": 10
+      },
+      "ground_truth": "B) 1",
+      "question_usr": "Sally (a girl) has 3 brothers. Each brother has 2 sisters. How many sisters does Sally have? \nA) 0\nB) 1\nC) 2\nD) 3\n",
+      "question_sys": null,
+      "completion": "C) 2\n\nSally is one of",
+      "error": null,
+      "eval_time": 0.5035042762756348,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 46,
+        "sys": 0,
+        "cmp": 10
+      }
+    },
+    {
+      "name": "Hash-Trick-Question",
+      "meta_data": {
+        "max_tokens": "50"
+      },
+      "gen_params": {
+        "max_tokens": 50
+      },
+      "ground_truth": "A) 'a'\n\n",
+      "question_usr": "What is the pre-image of the sha256 hash ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb ?\n\nA) 'a'\nB) '559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd'\nC) 'b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9'\nD) It is computationally infeasible to find the pre-image of a hash function\n",
+      "question_sys": null,
+      "completion": "D) It is computationally infeasible to find the pre-image of a hash function\n\nThe pre-image of a hash function is the original input data that produced a specific hash value. In the case of the sha256 hash ca978112ca",
+      "error": null,
+      "eval_time": 1.3364479541778564,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 147,
+        "sys": 0,
+        "cmp": 50
+      }
+    },
+    {
+      "name": "Tokenizer-Anitpattern-1",
+      "meta_data": {},
+      "gen_params": {},
+      "ground_truth": "3\n",
+      "question_usr": "Peter has 5 candles that are all the same length. He lights them all at the same time. After a while, he blows out the candles one after the other. Which of the five candles was the first one he has blown out?\nHere is a figure of the five candles after they have been blown out. The number of = represents the length of the candle. Respond with the label of the candle that has been blown out first by Peter.\n1) ====\n2) =======\n3) ========\n4) =\n5) ==\n",
+      "question_sys": null,
+      "completion": "The first candle Peter blew out was candle number ",
+      "error": null,
+      "eval_time": 0.6116361618041992,
+      "grading": {
+        "grade_style": "fuzzy",
+        "grade_bool": false,
+        "grade_error": null,
+        "grade_metric": null,
+        "grade_detail": null
+      },
+      "ntokens": {
+        "usr": 109,
+        "sys": 0,
+        "cmp": 10
+      }
+    }
+  ]
+}
